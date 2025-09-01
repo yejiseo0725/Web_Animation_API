@@ -30,6 +30,7 @@
       .key-blade-flipped {
         transform: rotate(0);
       }
+
     </style>
   </defs>
   <g id="_레이어_1-2" data-name="레이어 1">
@@ -39,10 +40,12 @@
   </g>
 
   <script>
-    const keyBtn = document.querySelector('.key-btn');
-    const keyBlade = document.querySelector('.key-blade');
-    keyBtn.addEventListener('click', () => {
-      keyBlade.classList.toggle('key-blade-flipped');
-    });
+
+  const keyBtn = document.querySelector('.key-btn');
+  const keyBlade = document.querySelector('.key-blade');
+  keyBtn.addEventListener('click', () => {
+    keyBlade.classList.toggle('key-blade-flipped');
+  });
+
   </script>
 </svg>
